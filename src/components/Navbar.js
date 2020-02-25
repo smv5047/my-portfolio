@@ -34,9 +34,11 @@ function Navbar() {
         <TabPanel value={value} index={2}>
         Item Three
         </TabPanel> */}
-        <h2>Testing</h2>
-        <h3>12 12</h3>
-        <h4>34 34</h4>
+        <h2>Home</h2>
+        <h2>About</h2>
+        <h2>Resume</h2>
+        <h2>Now</h2>
+        <h2>Blog</h2>
       </div>
     </>
   )
