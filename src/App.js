@@ -9,7 +9,8 @@ function App() {
       <Navbar />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Welcome to Steven's Temporary Portfolio!!!!</p>
+        <h2>Welcome to Steven's Portfolio!!!!</h2>
+        <h3>---CURRENTLY UNDER CONSTRUCTION---</h3>
       </header>
     </div>
 
