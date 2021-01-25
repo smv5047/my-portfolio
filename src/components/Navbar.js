@@ -20,6 +20,7 @@ function Navbar() {
             <Tab label="Home" />
             <Tab label="About" />
             <Tab label="Now" />
+            <Tab label="Blog" />
             <Tab label="Contact" />
             {/* <Tab label="Item One" {...a11yProps(0)} />
             <Tab label="Item Two" {...a11yProps(1)} />
