@@ -19,9 +19,14 @@ function Navbar() {
           >
             <Tab label="Home" />
             <Tab label="About" />
+            {/* Model now page after https://www.anthonyjcampbell.com/now/ */}
             <Tab label="Now" />
             <Tab label="Blog" />
+            <Tab label="My Story" />
+            <Tab label="Developer Portfolio" />
             <Tab label="Contact" />
+            {/* Link to DJ Galavance website */}
+            <Tab label="DJ" />
             {/* <Tab label="Item One" {...a11yProps(0)} />
             <Tab label="Item Two" {...a11yProps(1)} />
             <Tab label="Item Three" {...a11yProps(2)} /> */}
