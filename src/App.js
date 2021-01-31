@@ -2,6 +2,7 @@ import React from "react"
 import logo from "./logo.svg"
 import "./App.css"
 import Navbar from "./components/Navbar"
+import MailchimpSubscribe from "react-mailchimp-subscribe"
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <h2>Welcome to Steven's Portfolio!!!!</h2>
         <h3>---CURRENTLY UNDER CONSTRUCTION---</h3>
+        <MailchimpSubscribe url={process.env.REACT_APP_MAILCHIMP_URL} />
       </header>
     </div>
 
