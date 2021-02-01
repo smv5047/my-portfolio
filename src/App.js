@@ -12,6 +12,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <h2>Welcome to Steven's Portfolio!!!!</h2>
         <h3>---CURRENTLY UNDER CONSTRUCTION---</h3>
+        {/* Update to seperate component */}
         <MailchimpSubscribe url={process.env.REACT_APP_MAILCHIMP_URL} />
       </header>
     </div>
