@@ -2,9 +2,16 @@ import React from "react"
 import logo from "./logo.svg"
 import "./App.css"
 import Navbar from "./components/Navbar"
-import MailchimpSubscribe from "react-mailchimp-subscribe"
+import ConvertKitForm from "convertkit-react"
 
 function App() {
+  const config = {
+    formId: process.env.CONVERT_KIT_FORM_ID,
+    // template: "mills",
+    emailPlaceholder: "Enter an email address",
+    submitText: "Sign up"
+  }
+
   return (
     <div className="App">
       <Navbar />
@@ -12,13 +19,9 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <h2>Welcome to Steven's Portfolio!!!!</h2>
         <h3>---CURRENTLY UNDER CONSTRUCTION---</h3>
-        {/* Update to seperate component */}
-        <MailchimpSubscribe url={process.env.REACT_APP_MAILCHIMP_URL} />
+        <ConvertKitForm {...config} />
       </header>
     </div>
-
-    //Hello WORLD
-    //
   )
 }
 
