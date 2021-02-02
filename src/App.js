@@ -8,8 +8,8 @@ function App() {
   const config = {
     formId: process.env.CONVERT_KIT_FORM_ID,
     // template: "mills",
-    emailPlaceholder: "Enter an email address",
-    submitText: "Sign up"
+    emailPlaceholder: "Enter Your email address",
+    submitText: "Sign up!"
   }
 
   return (
@@ -17,9 +17,12 @@ function App() {
       <Navbar />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h2>Welcome to Steven's Portfolio!!!!</h2>
-        <h3>---CURRENTLY UNDER CONSTRUCTION---</h3>
-        <ConvertKitForm {...config} />
+        <h2>Welcome to Steve V's Site</h2>
+
+        <ConvertKitForm {...config}>
+          <h1>test</h1>
+          <p>Subscribe to get the latest content</p>
+        </ConvertKitForm>
       </header>
     </div>
   )
