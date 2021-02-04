@@ -1,22 +1,25 @@
 import React from "react"
 import "./App.css"
 import Navbar from "./components/Navbar"
-import Nav from "./components/Nav"
-import { Route } from "react-router-dom"
+import { Route, Switch } from "react-router-dom"
 
 import Blog from "./components/Blog"
+import Home from "./components/Home"
+import MyStory from "./components/MyStory"
+import Contact from "./components/Contact"
+import Newsletter from "./components/NewsLetter"
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      {/* <Nav /> */}
-      <header className="App-header">
-        <h2>Welcome to Steve V's Site</h2>
-      </header>
-      <Route path="/blog">
-        <Blog />
-      </Route>
+      <Switch>
+        <Route exact path="/newsletter" component={Newsletter} />
+        <Route exact path="/contact" component={Contact} />
+        <Route exact path="/mystory" component={MyStory} />
+        <Route exact path="/blog" component={Blog} />
+        <Route exact path="/" component={Home} />
+      </Switch>
     </div>
   )
 }
