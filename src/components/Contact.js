@@ -11,7 +11,7 @@ export default function Contact() {
   return (
     <header className="App-header">
       <h2>Contact Me</h2>
-      <form noValidate autoComplete="off" onSubmit={handleSubmit}>
+      {/* <form noValidate autoComplete="off" onSubmit={handleSubmit}>
         <TextField id="filled-basic" label="First Name" variant="filled" />
         <TextField id="filled-basic" label="Last Name" variant="filled" />
         <TextField id="filled-basic" required label="Email" variant="filled" />
@@ -23,7 +23,7 @@ export default function Contact() {
           variant="filled"
         />
         <Button type="submit">Submit</Button>
-      </form>
+      </form> */}
     </header>
   )
 }
