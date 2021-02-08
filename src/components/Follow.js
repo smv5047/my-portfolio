@@ -11,7 +11,7 @@ export default function Follow() {
           <a
             class="github"
             target="_blank"
-            href="https://github.com/rcaferati"
+            href="https://github.com/smv5047"
             title="Follow on GitHub"
           >
             <span>Follow on Github</span>
@@ -21,7 +21,7 @@ export default function Follow() {
           <a
             class="linkedin"
             target="_blank"
-            href="https://linkedin.com/in/rcaferati"
+            href="https://linkedin.com/in/stevenvandenburg"
             title="Connect on Linkedin"
           >
             <span>Connect on Linkedin</span>
@@ -31,7 +31,7 @@ export default function Follow() {
           <a
             class="twitter"
             target="_blank"
-            href="https://twitter.com/rcaferati"
+            href="https://twitter.com/stevevandenburg"
             title="Follow on Twitter"
           >
             <span>Follow on Twitter</span>
@@ -41,7 +41,7 @@ export default function Follow() {
           <a
             class="instagram"
             target="_blank"
-            href="https://instagram.com/rcaferati"
+            href="https://instagram.com/stevenvandenburg"
             title="Follow on Instagram"
           >
             <span>Follow on Instagram</span>
@@ -51,50 +51,3 @@ export default function Follow() {
     </div>
   )
 }
-;<div class="follow-me">
-  <ul>
-    <li>
-      <small>Follow me</small>
-    </li>
-    <li>
-      <a
-        class="github"
-        target="_blank"
-        href="https://github.com/rcaferati"
-        title="Follow on GitHub"
-      >
-        <span>Follow on Github</span>
-      </a>
-    </li>
-    <li>
-      <a
-        class="linkedin"
-        target="_blank"
-        href="https://linkedin.com/in/rcaferati"
-        title="Connect on Linkedin"
-      >
-        <span>Connect on Linkedin</span>
-      </a>
-    </li>
-    <li>
-      <a
-        class="twitter"
-        target="_blank"
-        href="https://twitter.com/rcaferati"
-        title="Follow on Twitter"
-      >
-        <span>Follow on Twitter</span>
-      </a>
-    </li>
-    <li>
-      <a
-        class="instagram"
-        target="_blank"
-        href="https://instagram.com/rcaferati"
-        title="Follow on Instagram"
-      >
-        <span>Follow on Instagram</span>
-      </a>
-    </li>
-  </ul>
-</div>

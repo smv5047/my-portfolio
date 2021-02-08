@@ -25,13 +25,19 @@ function Navbar() {
             <Tab label="My Story" to="/MyStory" component={Link} />
             <Tab label="Blog" to="/Blog" component={Link} />
             <Tab label="Newsletter" to="/Newsletter" component={Link} />
-            <Tab label="Portfolio">
-              <a href="www.stevenvandenburg.dev"></a>
-            </Tab>
-            <Tab label="DJ">
-              <a href="www.djgalavance.com"></a>
-            </Tab>
-            <a target="_blank" href="www.djgalavance.com"></a>
+            <Tab
+              label="Portfolio"
+              to={{ pathname: "https://www.stevenvandenburg.dev" }}
+              target="_blank"
+              component={Link}
+            />
+            <Tab
+              label="DJ"
+              to={{ pathname: "https://www.djgalavance.com" }}
+              target="_blank"
+              component={Link}
+            />
+
             <Tab label="Contact" to="/Contact" component={Link} />
           </Tabs>
         </AppBar>

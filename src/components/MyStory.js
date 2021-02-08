@@ -15,6 +15,11 @@ export default function MyStory() {
           cross-functional teams to deliver security and IT projects timely and
           on budget. I'm looking forward to my next challenge as a Developer.
         </p>
+        <p>
+          Wanna get in touch or talk about a project? Feel free to contact me
+          via email at stevenvandenburgjr@gmail.com or drop a line in the form
+          at the contact page
+        </p>
       </Container>
     </header>
   )
