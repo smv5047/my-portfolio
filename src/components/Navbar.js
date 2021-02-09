@@ -1,5 +1,4 @@
 import React from "react"
-import Button from "@material-ui/core/Button"
 import AppBar from "@material-ui/core/AppBar"
 import Tabs from "@material-ui/core/Tabs"
 import Tab from "@material-ui/core/Tab"
@@ -7,7 +6,6 @@ import { Link } from "react-router-dom"
 
 function Navbar() {
   const handleChange = (event, newValue) => {
-    // event.preventDefault()
     console.log(event)
   }
 
@@ -16,7 +14,6 @@ function Navbar() {
       <div>
         <AppBar position="static">
           <Tabs
-            // value={value}
             onChange={handleChange}
             aria-label="simple tabs example"
             wrapped={true}
@@ -41,16 +38,6 @@ function Navbar() {
             <Tab label="Contact" to="/Contact" component={Link} />
           </Tabs>
         </AppBar>
-
-        {/* <TabPanel value={value} index={0}>
-        Item One
-        </TabPanel>
-        <TabPanel value={value} index={1}>
-        Item Two
-        </TabPanel>
-        <TabPanel value={value} index={2}>
-        Item Three
-        </TabPanel> */}
       </div>
     </>
   )
