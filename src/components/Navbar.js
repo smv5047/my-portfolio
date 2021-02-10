@@ -20,7 +20,12 @@ function Navbar() {
           >
             <Tab label="Home" to="/" component={Link} />
             <Tab label="My Story" to="/MyStory" component={Link} />
-            <Tab label="Blog" to="/Blog" component={Link} />
+            <Tab
+              label="Blog"
+              to={{ pathname: "https://medium.com/@BTSSteve" }}
+              target="_blank"
+              component={Link}
+            />
             <Tab label="Newsletter" to="/Newsletter" component={Link} />
             <Tab
               label="Portfolio"
@@ -34,6 +39,7 @@ function Navbar() {
               target="_blank"
               component={Link}
             />
+            <Tab label="Security Audit" to="/SecurityAudit" component={Link} />
 
             <Tab label="Contact" to="/Contact" component={Link} />
           </Tabs>

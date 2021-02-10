@@ -26,3 +26,14 @@
 form {
   background-color: white;
 }
+
+a {
+  color: #09d3ac;
+  text-decoration: none;
+  padding-left: 5px;
+}
+
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
