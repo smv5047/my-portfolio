@@ -37,3 +37,8 @@ a:hover {
   color: white;
   text-decoration: underline;
 }
+
+.MuiAvatar-img {
+  width: 12rem;
+  height: 12rem;
+}

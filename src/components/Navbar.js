@@ -41,7 +41,7 @@ function Navbar() {
             />
             <Tab label="Security Audit" to="/SecurityAudit" component={Link} />
 
-            <Tab label="Contact" to="/Contact" component={Link} />
+            {/* <Tab label="Contact" to="/Contact" component={Link} /> */}
           </Tabs>
         </AppBar>
       </div>
