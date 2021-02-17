@@ -9,7 +9,7 @@ export default function MyStory() {
       <Container>
         <h3>Apps</h3>
         <p>
-          these are a collection of apps that help me perform my best. Whether
+          These are a collection of apps that help me perform my best. Whether
           for note taking or having fun
         </p>
         <h3>Business</h3>
