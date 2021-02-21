@@ -5,7 +5,7 @@ import "../App.css"
 export default function MyStory() {
   return (
     <header className="App-header">
-      <h2>Steve V 6 Pack ABS NewsLetter</h2>
+      <h2>Steve V's 6 Pack ABS NewsLetter</h2>
       <Container>
         <h3>Apps</h3>
         <p>
