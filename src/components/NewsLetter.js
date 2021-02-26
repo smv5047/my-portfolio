@@ -20,7 +20,7 @@ export default function MyStory() {
         </p>
         <h3>Songs</h3>
         <p>
-          hese will be songs selected because of meaningful lyrics, a new groovy
+          These will be songs selected because of meaningful lyrics, a new groovy
           baselines, or maybe a track that I feel didn’t get enough attention.
           I’ll break down what makes the track special then encourage others to
           share.
